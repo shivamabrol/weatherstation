@@ -20,4 +20,9 @@ Steps
  Press on Genereate API key and add it to the code 
  
  
- 
+5. To create a channel on ThingSpeak 
+1. go to My Channels 
+2. Cick on New Channel 
+3. In the field names set 
+   field 1. Temperature
+   field 2. Humidity
