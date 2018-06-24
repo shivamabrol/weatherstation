@@ -12,9 +12,11 @@ Steps
    
    
    image obtained from : http://forum.hobbycomponents.com/viewtopic.php?f=110&t=2056
-2. Connect ESP8266 with DH11 module    
-   http://www.instructables.com/id/Interface-DHT11-Humidity-Sensor-Using-NodeMCU/
-   connect the 3 pins on the esp8266 board with the corresponding pins on DH11 module as shown 
+2 . Connect ESP8266 with DH11 module depending on whether it has 3 or 4 pins connect the 3 pins on the esp8266 board with the        corresponding pins on DH11 module as shown    
+
+   ![](dh11.jpg)
+   image source http://www.instructables.com/id/Interface-DHT11-Humidity-Sensor-Using-NodeMCU/
+   
  
 3. Upload the code - While uploading the code make sure keep the flash(yellow block) on 2 pins otherwise espcomm_upload_mem failed error will be faced. 
 
