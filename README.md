@@ -42,3 +42,4 @@ Steps
 3. In the field names set 
    field 1. Temperature
    field 2. Humidity
+6. Print Case https://www.thingiverse.com/thing:2835668 . This was scaled 170% (X),120% (Y) and 200% (Z) to fit the dev 8266 board instead of Node MCU
