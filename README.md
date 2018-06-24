@@ -22,7 +22,7 @@ Steps
    
  
 3. Upload the code - While uploading the code make sure keep the flash(yellow block) on 2 pins otherwise espcomm_upload_mem failed error will be faced. 
-  ![](flash.jpg)
+  ![](flash.png)
 4. How to get API key : 
  Make an account on thingspeak.com
  Go to my profile 
