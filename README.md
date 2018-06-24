@@ -1,8 +1,15 @@
-Make IOT Weather Station using the ESP8266
+# Make IOT Weather Station using the ESP8266
 
 
-1. Hardware Required : ESP8266 board , USB- Serial Converter , Jumper Wires , DH11 (Temperature and Humidity Sensor)
-2. Software : Arduino IDE 
+1. Hardware Required :-
+- ESP8266 board  
+- USB to Serial Converter 
+- Jumper Wires 
+- DH11 (Temperature and Humidity Sensor)
+
+2. Software : Arduino IDE
+
+
 
 Steps 
 
