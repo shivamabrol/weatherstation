@@ -13,12 +13,12 @@
 
 Steps 
 
-1. Connect the ESP8266 with the USB to serial converter 
+1. Connect the ESP8266 with the USB to serial converter. Use CP2102 USB UART .
 
    ![alt text](ESP12E_USB_Connections.png)
    
    
-   image obtained from : http://forum.hobbycomponents.com/viewtopic.php?f=110&t=2056
+   Reference : http://forum.hobbycomponents.com/viewtopic.php?f=110&t=2056
    
    
    
