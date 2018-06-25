@@ -106,7 +106,7 @@ In case your module comes with a CH340 serial-to-USB converter then download
  Make an account on thingspeak.com
  Go to my profile 
  Press on Genereate API key and add it to the code 
- 
+  ![](thingspeak_getkey.jpg)
  
 5. To create a channel on ThingSpeak 
 1. go to My Channels 
@@ -114,5 +114,9 @@ In case your module comes with a CH340 serial-to-USB converter then download
 3. In the field names set 
    field 1. Temperature
    field 2. Humidity
+  ![](Screenshot%20(191).png)
+ ![](Screenshot%20(193)_LI.jpg)
 6. Print Case https://www.thingiverse.com/thing:2835668 . This was scaled 170% (X),120% (Y) and 200% (Z) to fit the dev 8266 board instead of Node MCU
 The box needs to  have one hole at the top to place the sensor and cuts along the sides so as to ensure the temp. and mositure in box is same as that of the surroundings. 
+![](front%20case.jpg)
+![](side%20case.jpg)
