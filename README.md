@@ -74,15 +74,16 @@ Go to Tools > Port and select the given port named COMx (x is a no. )
 
 to detect the external Serial-To-USB adapter There are two different versions: some
 have the CP2102 Serial-To-USB adapter; others have the CH340. 
-My guess is that most new modules
-come with the CH340 chip.
+
 If your module has the CP2102 converter then you can download 
 https://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 
 In case your module comes with a CH340 serial-to-USB converter then download 
 • Win: http://blog.squix.org/downloads/CH341SER.zip
 • Mac: https://blog.squix.org/wp-content/uploads/2016/12/CH34x_Install_V1.3.zip
-   ![alt text](ESP12E_USB_Connections.png)
+ 
+2. Conncet the ESP8266 board with the USB converter as shown in the figure below  
+  ![alt text](ESP12E_USB_Connections.png)
    
    
    Reference : http://forum.hobbycomponents.com/viewtopic.php?f=110&t=2056
@@ -115,8 +116,28 @@ In case your module comes with a CH340 serial-to-USB converter then download
    field 1. Temperature
    field 2. Humidity
   ![](Screenshot%20(191).png)
+ Set the channel view to public so that everyone can see it. Then click on the channel name Eg. My channel is named weather
+ the lock is unlocked as the channel is public 
+ ![](Screenshot%20(196).png)
+  you will see the following charts, this is the analysis of your weather project over time  
  ![](Screenshot%20(193)_LI.jpg)
 6. Print Case https://www.thingiverse.com/thing:2835668 . This was scaled 170% (X),120% (Y) and 200% (Z) to fit the dev 8266 board instead of Node MCU
 The box needs to  have one hole at the top to place the sensor and cuts along the sides so as to ensure the temp. and mositure in box is same as that of the surroundings. 
 ![](front%20case.jpg)
+
+
 ![](side%20case.jpg)
+
+
+### Battery Life : 
+When in the deepSleep mode the average current drawn is about 3 mA and when active i.e. taking a reading it stays at 78mA for a period of 10 seconds. 
+average current drawn = (3*3590 + 78*10) / 3600 = 3.2 mA
+
+THe power of an average battery is 2450 mAh so 2450/3.2 = 765.62 ie it can work for 765 hours ie about 32 days theoretically 
+
+We can further extend the battery if you are willing to go the extra step , you need to understand that the major source of this current is a *RED led*  which stays on for the whole time the circuit is switched on indicating that the device is working. But if you look closely even in deepSleep the big LED which looks like a bulb stays on for the whole timme and brightens for an instant when the board transmits a signal i.e. both of them do the same work so why keep both when you can do it with one. 
+BAM ! Pop the little red led 
+Check the current with a multimeter it is now .138 mA 
+Average current now is 0.138*3590 + 78*10 / 3600 = 0.35 mA
+which is nearly 10 times the previous value can theoretically work for 7000 hours !!!! almost 291 days . 
+If you further want to increase the time pop the big LED too. I have'nt tried it but it surely will make your device a longer time .
