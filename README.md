@@ -115,3 +115,4 @@ In case your module comes with a CH340 serial-to-USB converter then download
    field 1. Temperature
    field 2. Humidity
 6. Print Case https://www.thingiverse.com/thing:2835668 . This was scaled 170% (X),120% (Y) and 200% (Z) to fit the dev 8266 board instead of Node MCU
+The box needs to  have one hole at the top to place the sensor and cuts along the sides so as to ensure the temp. and mositure in box is same as that of the surroundings. 
