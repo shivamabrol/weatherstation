@@ -131,9 +131,9 @@ The box needs to  have one hole at the top to place the sensor and cuts along th
 
 ### Battery Life : 
 When in the deepSleep mode the average current drawn is about 3 mA and when active i.e. taking a reading it stays at 78mA for a period of 10 seconds. 
-average current drawn = (3*3590 + 78*10) / 3600 = 3.2 mA
+average current drawn = (3.2*3590 + 78*10) / 3600 = 3.4 mA
 
-THe power of an average battery is 2450 mAh so 2450/3.2 = 765.62 ie it can work for 765 hours ie about 32 days theoretically 
+THe power of an average battery is 2450 mAh so 2450/3.2 = 720.62 ie it can work for 720 hours ie about 30 days theoretically 
 
 We can further extend the battery if you are willing to go the extra step , you need to understand that the major source of this current is a *RED led*  which stays on for the whole time the circuit is switched on indicating that the device is working. But if you look closely even in deepSleep the big LED which looks like a bulb stays on for the whole timme and brightens for an instant when the board transmits a signal i.e. both of them do the same work so why keep both when you can do it with one. 
 BAM ! Pop the little red led 
@@ -141,3 +141,9 @@ Check the current with a multimeter it is now .138 mA
 Average current now is 0.138*3590 + 78*10 / 3600 = 0.35 mA
 which is nearly 10 times the previous value can theoretically work for 7000 hours !!!! almost 291 days . 
 If you further want to increase the time pop the big LED too. I have'nt tried it but it surely will make your device a longer time .
+![](Screenshot%20(198).png) 
+Transmission mode 
+![](Screenshot%20(199).png)
+DeepSleep mode 
+![](multimeter.jpg)
+DeepSleep mode after popping the red LED current reduced signifanctly thus making device work for longer time as you can see the power LED is no longer on cause it is popped and system is taking 30 times less current .
