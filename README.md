@@ -1,10 +1,10 @@
 # Battery powered very low power IOT Weather Station 
 
-![](IMG_4950.JPG)
+![](IMG_4950.JPG =200x)
 This is a battery powered (3XAA) internet connected weather station which has been  built and programmed using open source tools and costs less than $10 . The battery is expected to last around a year. The weather station would measure temperature and humidity every hour and update it to its own channel on thingspeak.com .
 
 
-![](Screenshot%20(193)_LI.jpg)
+![](Screenshot%20(193)_LI.jpg =200x)
 The hourly updated weather report on Thingspeak.com
 
 --------
