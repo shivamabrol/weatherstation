@@ -1,4 +1,4 @@
-# Make IOT Weather Station using the ESP8266
+# Battery powered very low power IOT Weather Station 
 
 A weather station is a fun project that teaches you a ton about electronics with the added benefit being an actually useful little device. The project requires a bunch of cheap parts and sensors totaling less than $15, and the whole thing ends up fitting in your hand. The station creates a web site that monitors temperature, dew point, humidity, pressure, light index, and rain (Thingspeak channel). It’s  pretty easy set up, and you’ll just need some basic electronics skills to get it going.
 
@@ -6,7 +6,7 @@ A weather station is a fun project that teaches you a ton about electronics with
 A weather station is a good start for Internet of Things project as it is fairly simple and teaches you about electronics, IOT and API's. The project requires mainly a temeperature and moisture sensor and some electronic items as discussed below. The data is uploaded to a website where 2 graphs are plotted over time displaying the change in temp and humidity(ThingSpeak Channel). 
 
 
-## 1. Hardware Required :-
+### Hardware Required :-
 - ESP8266 board  
 - USB to Serial Converter 
 - Jumper Wires 
