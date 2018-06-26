@@ -121,6 +121,7 @@ In case your module comes with a CH340 serial-to-USB converter then download
  For making the device last a long time, instead of delay, an ESP.deepSleep(Sleep_time) function is used, in the code.
  When in deepSleep the device shuts down and uses only minimum current just to stay awake. In order for the deepSleep to work 
  join the **GPIO16 and RST button** on the ESP8266 using a jumper wire
+ ![](Inkeddeepsleep_LI.jpg)
  
  How to get API key : 
  Make an account on thingspeak.com
