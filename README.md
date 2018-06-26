@@ -169,3 +169,10 @@ Transmission mode
 DeepSleep mode 
 ![](multimeter.jpg)
 DeepSleep mode after popping the red LED current reduced significantly thus making the device work for a longer time as you can see the power LED is no longer on cause it is popped and the system is taking 30 times less current.
+
+
+#### References
++ 
++ 
++ 
++ 
