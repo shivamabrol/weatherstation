@@ -1,6 +1,5 @@
 # Battery powered very low power IOT Weather Station 
 
-## The completed project
 ![](IMG_4947.JPG)      
 This is the weather station made using the ESP8266 board with a DHT11 temperature and moisture sensor.
 
