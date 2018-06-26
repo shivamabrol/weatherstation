@@ -1,8 +1,13 @@
 # Battery powered very low power IOT Weather Station 
 
 ![](IMG_4950.JPG)
-This is a battery powered (3XAA) internet connected weather station which has been  buuilt and programmed using open source tools and costs less than $10 . The battery is expected to last around a year. The weather station would measure temperature and humidity every hour and update it to its own channel on thingspeak.com .
+This is a battery powered (3XAA) internet connected weather station which has been  built and programmed using open source tools and costs less than $10 . The battery is expected to last around a year. The weather station would measure temperature and humidity every hour and update it to its own channel on thingspeak.com .
 
+
+![](Screenshot%20(193)_LI.jpg)
+The hourly updated weather report on Thingspeak.com
+
+--------
 
 ![](IMG_4947.JPG)      
 This is the weather station made using the ESP8266 board with a DHT11 temperature and moisture sensor.
@@ -18,10 +23,6 @@ This is the plastic case 3D printed so as to keep the weather station safely.
 Weather station in the plastic case , the top has a hole so as to keep that we can see it without opening the box 
 
 
-
-
-![](Screenshot%20(193)_LI.jpg)
-The hourly updated weather report on Thingspeak.com
 ##### Lets see how to make this 
 A weather station is a fun project that teaches you a ton about electronics with the added benefit being an actually useful little device. The project requires a bunch of cheap parts and sensors totaling less than $15, and the whole thing ends up fitting in your hand. The station creates a website that monitors temperature, dew point, humidity, pressure, light index, and rain (Thingspeak channel). It ’s pretty easy to set up, and you’ll just need some basic electronics skills to get it going.
 
