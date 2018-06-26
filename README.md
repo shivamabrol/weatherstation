@@ -80,7 +80,7 @@ In case your module comes with a CH340 serial-to-USB converter then download
 • Win: http://blog.squix.org/downloads/CH341SER.zip
 • Mac: https://blog.squix.org/wp-content/uploads/2016/12/CH34x_Install_V1.3.zip
  
-1. Conncet the ESP8266 board with the USB converter as shown in the figure below  
+1. Connect the ESP8266 board with the USB converter as shown in the figure below  
   ![alt text](ESP12E_USB_Connections.png)
    
    
